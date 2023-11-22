@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(62, 61, 61);
+    color: rgb(255, 255, 104);
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+    background-color: rgb(37, 36, 36);
+    height: 350px;
+    width: 560px;
+}
+
+a {
+    color: rgb(255, 255, 104);
+}
+
+h1{
+    color: rgb(224, 233, 241);
+}
+.a{
+    gap: 20px;
+    align-content: ;
+}
