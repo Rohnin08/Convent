@@ -33,6 +33,6 @@ if (isset($_POST['nome'], $_POST['email'], $_POST['senha'])) {
     $email = $_POST['email'];
     $senha = $_POST['senha'];
     $db = connectDatabase();
-    $db->exec("INSERT INTO nome_da_sua_tabela (user_name, user_email, user_senha) VALUES ('" . $nome . "', '" . $email . "', '" . $senha . "')");
+    $db->exec("INSERT INTO tb_user (user_name, user_email, user_senha) VALUES ('" . $nome . "', '" . $email . "', '" . $senha . "')");
 }
 ?>
